@@ -1,0 +1,17 @@
+{
+  "development": {
+    "database": "netflix-clone",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "database": "netflix-clone-test",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "database": "netflix-clone",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}
