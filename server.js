@@ -84,6 +84,8 @@ app.get('/dashboard', async (req, res) => {
     myAction: grabAction
   });
 });
+
+//Dina: Search movie by keyword 
 let myMovieRes = []
 app.get("/search/:search", (req, res)=>{
   let keyword  = req.query.title
@@ -136,7 +138,7 @@ app.get('/watch-later', function(req, res) {
   })
 });
 
-//delete movie from watchlist
+//Dina: delete movie from watchlist
 app.delete ("/watch-later", function (req, res) {
   const movieId = req.body.movieId;
   const userId = req.body.userId;
